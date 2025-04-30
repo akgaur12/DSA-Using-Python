@@ -1,5 +1,5 @@
 """
-This script counts the number of digits in a given integer.
+Program to counts the number of digits in a given integer.
 
 It handles:
 - Positive numbers
@@ -37,6 +37,6 @@ try:
     while Test_Case:
         n = int(input("Enter a number: "))
         print("Number of digits:", countDigits(n))
-    
+        Test_Case -= 1
 except ValueError:
     print("Invalid input! Please enter an integer.")
