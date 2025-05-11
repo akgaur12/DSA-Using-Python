@@ -2,55 +2,50 @@
 
 This repository is a structured collection of Python programs to help understand **Data Structures and Algorithms (DSA)**. It's organized by topics like basic math logic, hash maps, and recursion—ideal for beginners and intermediate programmers.
 
----
-
 ## 📁 Folder Structure
+### 01_Basic_Maths_Logic
+- Count_Digits.py
+- Reverse_Number.py
+- Check_Palindrome.py
+- Factors.py
+- Factorial.py
+- Armstrong_Number.py
+- LCM.py
+- GCD.py
+- Fibonacci_Series.py
 
-### `01_Basic_Maths_Logic`
-Basic math-based problems and their solutions in Python.
+### 02_Hash_Map_Python
+- HashMapBasics.py
+- UniqueNumber1.py
+- UniqueNumber2.py
+- UniqueNumber3.py
+- FrequencyCount.py
 
-| File Name               | Description                     |
-|------------------------|---------------------------------|
-| `01_Count_Digits.py`    | Count the number of digits in a number |
-| `02_Reverse_Number.py`  | Reverse a given number         |
-| `03_Check_Palindrome.py`| Check if a number is a palindrome |
-| `04_Factors.py`         | Find all factors of a number   |
-| `05_Factorial.py`       | Calculate factorial using iteration |
-| `06_Armstrong_Number.py`| Check if a number is an Armstrong number |
-| `07_LCM.py`             | Calculate Least Common Multiple |
-| `08_GCD.py`             | Calculate Greatest Common Divisor |
-| `09_Fibonacci_Series.py`| Generate a Fibonacci series     |
+### 03_Recursion
+- RecursionBasics.md
+- PowerFunction.py
+- Factorial.py
+- SumOfCubes.py
+- FibonacciSeries.py
+- ReverseArrayUsingRecursion.py
+- StringReversal.py
 
----
+### 04_Searching
+- Linear Search  
+- Binary Search
+- Interpolation Search
 
-### `02_Hash_Map_Python`
-Examples and use-cases involving Python dictionaries (hash maps).
+### 05_Sorting
+- Bubble Sort
+- Selection Sort  
+- Insertion Sort  
+- Merge Sort  
+- Quick Sort  
+- Heap Sort  
+- Counting Sort  
+- Radix Sort  
+- Bucket Sort
 
-| File Name               | Description                     |
-|------------------------|---------------------------------|
-| `01_HashMapBasics.py`   | Basic operations on hash maps   |
-| `02_UniqueNumber1.py`   | Find a single unique number     |
-| `03_UniqueNumber2.py`   | Find two unique numbers         |
-| `04_UniqueNumber3.py`   | Find three unique numbers       |
-| `05_FrequencyCount.py`  | Frequency count using hash map  |
-
----
-
-### `03_Recursion`
-Recursive solutions to common problems and theoretical understanding.
-
-| File Name                     | Description                     |
-|------------------------------|---------------------------------|
-| `01_RecursionBasics.md`       | Notes on recursion basics       |
-| `02_PowerFunction.py`         | Compute `a^b` using recursion   |
-| `03_Factorial.py`             | Calculate factorial recursively |
-| `04._SumOfCubes.py`           | Sum of cubes using recursion    |
-| `05_FibonacciSeries.py`       | Fibonacci using recursion       |
-| `06_ReverseArrayUsingRecursion.py` | Reverse array with recursion |
-| `07_StringReversal.py`        | Reverse a string recursively    |
-
-
----
 
 ## ✅ Prerequisites
 
@@ -67,3 +62,5 @@ More topics like **Sorting**, **Searching**, **Linked Lists**, **Stacks**, **Que
 ---
 
 Happy Coding! 💻✨
+
+
