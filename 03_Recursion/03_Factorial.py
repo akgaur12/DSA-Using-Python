@@ -14,6 +14,7 @@ Time Complexity:
 - Recursive Method: O(n) (but has function call overhead)
 """
 
+
 # Calculates factorial using an iterative approach.
 def factorial_iterative(n):
     fact = 1
@@ -28,6 +29,7 @@ def factorial_recursive(n):
     if n == 0 or n == 1:
         return 1
     return n * factorial_recursive(n - 1)
+
 
 
 # --------- Main Program ---------
