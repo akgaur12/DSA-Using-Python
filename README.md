@@ -4,40 +4,31 @@ This repository is a structured collection of Python programs to help understand
 
 ## 📁 Folder Structure
 ### 01_Basic_Maths_Logic
-
-| File Name               | Description                     |
-|------------------------|---------------------------------|
-| 01_Count_Digits.py    | Count the number of digits in a number |
-| 02_Reverse_Number.py  | Reverse a given number         |
-| 03_Check_Palindrome.py| Check if a number is a palindrome |
-| 04_Factors.py         | Find all factors of a number   |
-| 05_Factorial.py       | Calculate factorial using iteration |
-| 06_Armstrong_Number.py| Check if a number is an Armstrong number |
-| 07_LCM.py             | Calculate Least Common Multiple |
-| 08_GCD.py             | Calculate Greatest Common Divisor |
-| 09_Fibonacci_Series.py| Generate a Fibonacci series     |
+- Count_Digits.py
+- Reverse_Number.py
+- Check_Palindrome.py
+- Factors.py
+- Factorial.py
+- Armstrong_Number.py
+- LCM.py
+- GCD.py
+- Fibonacci_Series.py
 
 ### 02_Hash_Map_Python
-
-| File Name               | Description                     |
-|------------------------|---------------------------------|
-| 01_HashMapBasics.py   | Basic operations on hash maps   |
-| 02_UniqueNumber1.py   |    |
-| 03_UniqueNumber2.py   |          |
-| 04_UniqueNumber3.py   |      |
-| 05_FrequencyCount.py  | Frequency count using hash map  |
+- HashMapBasics.py
+- UniqueNumber1.py
+- UniqueNumber2.py
+- UniqueNumber3.py
+- FrequencyCount.py
 
 ### 03_Recursion
-
-| File Name                     | Description                     |
-|------------------------------|---------------------------------|
-| 01_RecursionBasics.md       | Notes on recursion basics       |
-| 02_PowerFunction.py         | Compute a^b using recursion   |
-| 03_Factorial.py             | Calculate factorial recursively |
-| 04._SumOfCubes.py           | Sum of cubes using recursion    |
-| 05_FibonacciSeries.py       | Fibonacci using recursion       |
-| 06_ReverseArrayUsingRecursion.py | Reverse array with recursion |
-| 07_StringReversal.py        | Reverse a string recursively    |
+- RecursionBasics.md
+- PowerFunction.py
+- Factorial.py
+- SumOfCubes.py
+- FibonacciSeries.py
+- ReverseArrayUsingRecursion.py
+- StringReversal.py
 
 
 ### 04_Searching
