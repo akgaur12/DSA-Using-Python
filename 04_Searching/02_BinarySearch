@@ -1,0 +1,67 @@
+"""
+Program: Binary Search in a Sorted List
+
+Description:
+------------
+This program implements the binary search algorithm to find the index of a target element
+in a list. Binary search works on sorted arrays by repeatedly dividing the search interval
+in half.
+
+Note:
+-----
+- The input list is automatically sorted within the function before searching.
+- This changes the original list, so make a copy if original order needs to be preserved.
+
+Approach:
+---------
+1. Sort the array.
+2. Initialize two pointers: `low` (start of list) and `high` (end of list).
+3. Repeat until `low > high`:
+   - Compute mid = (low + high) // 2
+   - If target == arr[mid] → return mid
+   - If target > arr[mid]  → search in the right half (`low = mid + 1`)
+   - If target < arr[mid]  → search in the left half (`high = mid - 1`)
+4. If the element is not found, return -1.
+
+Time Complexity:
+----------------
+- Best Case: O(1)   → Target is found at mid
+- Average/Worst Case: O(log n)
+
+Space Complexity:
+-----------------
+- O(1), iterative implementation uses no extra space.
+
+Example:
+--------
+Input : arr = [10, 2, 7, 5, 8], target = 7  
+Output: 3  (After sorting → [2, 5, 7, 8, 10], 7 is at index 2 or 3 depending on original input)
+"""
+
+
+def binary_search(arr, target):
+    low = 0
+    high = len(arr) - 1
+    arr.sort()  # Ensures the list is sorted before applying binary search
+
+    while low <= high:
+        mid = (low + high) // 2
+        if target == arr[mid]:
+            return mid
+        elif target > arr[mid]:
+            low = mid + 1
+        else:
+            high = mid - 1
+    return -1
+
+
+
+# --------- Example Usage ---------
+if __name__ == "__main__":
+    arr = [10, 2, 7, 5, 8, 4, 9]
+    target = 7
+    index = binary_search(arr, target)
+    if index != -1:
+        print(f"Target found at index {index}")
+    else:
+        print("Target not found in the list")
