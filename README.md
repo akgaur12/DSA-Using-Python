@@ -33,26 +33,26 @@ This repository is a structured collection of Python programs to help understand
 
 ### 04_Searching
 
-| Algorithm            | Time (Avg)  | Time (Worst) | Space    | Requirement                 |
-|----------------------|-------------|--------------|----------|-----------------------------|
-| Linear Search        | O(n)        | O(n)         | O(1)     | None                        |
-| Binary Search        | O(log n)    | O(log n)     | O(1)     | Sorted array                |
-| Interpolation Search | O(log log n)| O(n)         | O(1)     | Sorted and uniformly distributed array |
+| Algorithm                | Time (Best) | Time (Avg)   | Time (Worst) | Space | Requirement                            |
+| ------------------------ | ----------- | ------------ | ------------ | ----- | -------------------------------------- |
+| **Linear Search**        | O(1)        | O(n)         | O(n)         | O(1)  | None                                   |
+| **Binary Search**        | O(1)        | O(log n)     | O(log n)     | O(1)  | Sorted array                           |
+| **Interpolation Search** | O(1)        | O(log log n) | O(n)         | O(1)  | Sorted and uniformly distributed array |
+
 
 ### 05_Sorting
 
-| Algorithm      | Time (Avg) | Time (Worst) | Space    | Stable? |
-| -------------- | ---------- | ------------ | -------- | ------- |
-| Bubble Sort    | O(n²)      | O(n²)        | O(1)     | Yes     |
-| Selection Sort | O(n²)      | O(n²)        | O(1)     | No      |
-| Insertion Sort | O(n²)      | O(n²)        | O(1)     | Yes     |
-| Merge Sort     | O(n log n) | O(n log n)   | O(n)     | Yes     |
-| Quick Sort     | O(n log n) | O(n²)        | O(log n) | No      |
-| Heap Sort      | O(n log n) | O(n log n)   | O(1)     | No      |
-| Counting Sort  | O(n + k)   | O(n + k)     | O(k)     | Yes     |
-| Radix Sort     | O(nk)      | O(nk)        | O(n + k) | Yes     |
-| Bucket Sort    | O(n + k)   | O(n²)        | O(n + k) | Yes     |
-| Tim Sort       | O(n log n) | O(n log n)   | O(n)     | Yes     |
+| Algorithm          | Time (Best) | Time (Avg) | Time (Worst) | Space    | Stable? |
+| ------------------ | ----------- | ---------- | ------------ | -------- | ------- |
+| **Bubble Sort**    | O(n)        | O(n²)      | O(n²)        | O(1)     | Yes     |
+| **Selection Sort** | O(n²)       | O(n²)      | O(n²)        | O(1)     | No      |
+| **Insertion Sort** | O(n)        | O(n²)      | O(n²)        | O(1)     | Yes     |
+| **Merge Sort**     | O(n log n)  | O(n log n) | O(n log n)   | O(n)     | Yes     |
+| **Quick Sort**     | O(n log n)  | O(n log n) | O(n²)        | O(log n) | No      |
+| **Heap Sort**      | O(n log n)  | O(n log n) | O(n log n)   | O(1)     | No      |
+| **Counting Sort**  | O(n + k)    | O(n + k)   | O(n + k)     | O(k)     | Yes     |
+| **Radix Sort**     | O(nk)       | O(nk)      | O(nk)        | O(n + k) | Yes     |
+| **Bucket Sort**    | O(n + k)    | O(n + k)   | O(n²)        | O(n + k) | Yes     |
 
 
 ## ✅ Prerequisites
