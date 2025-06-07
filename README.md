@@ -127,6 +127,19 @@ This repository is a structured collection of Python programs to help understand
 </details>
 
 
+<details>
+<summary><strong>07_Matrix (2D Array) </strong></summary>
+
+#### 🟢 Easy Level
+- [Print a Matrix in Row-Major Order](./Easy/01_row_major.py)  
+- [Print a Matrix in Column-Major Order](./Easy/02_col_major.py)  
+- [Transpose of a Matrix](./Easy/03_transpose.py)  
+- [Search Element in a Matrix](./Easy/04_search_element.py)  
+- [Check if Matrix is Symmetric](./Easy/05_check_symmetric.py)  
+- [Sum of All Elements in a Matrix](./Easy/06_sum_elements.py)  
+</details>
+
+
 
 ## ✅ Prerequisites
 
