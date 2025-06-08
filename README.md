@@ -137,6 +137,29 @@ This repository is a structured collection of Python programs to help understand
 - [Search Element in a Matrix](./Easy/04_search_element.py)  
 - [Check if Matrix is Symmetric](./Easy/05_check_symmetric.py)  
 - [Sum of All Elements in a Matrix](./Easy/06_sum_elements.py)  
+
+---
+
+#### 🟡 Medium Level
+- [Rotate Matrix by 90 Degrees (Clockwise/Anti-Clockwise)](./Medium/07_rotate_90.py)  
+- [Spiral Traversal of Matrix](./Medium/08_spiral_traversal.py)  
+- [Diagonal Traversal of Matrix](./Medium/09_diagonal_traversal.py)  
+- [Boundary Traversal of Matrix](./Medium/10_boundary_traversal.py)  
+- [Find Saddle Point in Matrix](./Medium/11_saddle_point.py)  
+- [Matrix Multiplication](./Medium/12_matrix_multiplication.py)  
+- [Check Identity Matrix](./Medium/13_check_identity.py)  
+
+---
+
+#### 🔴 Hard Level
+- [Search in Row & Column-wise Sorted Matrix](./Hard/14_search_sorted_matrix.py)  
+- [Set Matrix Zeroes](./Hard/15_set_matrix_zeroes.py)  
+- [Maximum Size Sub-matrix with All 1s](./Hard/16_max_submatrix_1s.py)  
+- [Find Median in Row-wise Sorted Matrix](./Hard/17_find_median.py)  
+- [Find Row with Maximum 1s](./Hard/18_max_1s_row.py)  
+- [Rotate Matrix In-Place](./Hard/19_rotate_inplace.py)  
+- [Word Search in Matrix (DFS)](./Hard/20_word_search_dfs.py)  
+
 </details>
 
 
