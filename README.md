@@ -73,7 +73,7 @@ This repository is a structured collection of Python programs to help understand
 <details>
 <summary><strong>06_Array</strong></summary>
 
-  Easy
+  Easy Level
   - [Reverse an array](./06_Array/01_reverse_array.py)  
   - [Check if the array is sorted](./06_Array/02_check_sorted.py)
   - [Find the maximum and minimum element in an array](./06_Array/03_max_min_of_array.py)  
@@ -89,58 +89,40 @@ This repository is a structured collection of Python programs to help understand
   - [Find whether an array is a subset of another array](./06_Array/13_check_subset.py)  
   - [Merge 2 sorted Arrays](./06_Array/14_merge_sorted.py)  
 
+  Medium Level
+  - [Union of two arrays](./06_Array/15_union_of_arrays.py)
+  - [Intersection of two arrays](./06_Array/16_intersection_of_arrays.py)
+  - [Find the "Kth" max and min element of an array](./06_Array//17_kth_max_min.py)
+  - [Merge 2 sorted arrays without using extra space](./06_Array/18_merge_two_array_inplace.py)
+  - [Find if there is any subarray with sum equal to 0](./06_Array/19_subarray_with_zero_sum.py)
+  - [Find the triplet that sum to a given value](./06_Array/20_3sum.py)
+  - [Find factorial of a large number](./06_Array/21_factorial_of_large_num.py) 
+  - [Find longest consecutive subsequence](./06_Array/22_longest_consecutive.py)  
+  - [Find all elements that appear more than " n/k " times](./06_Array/23_majority_element_II.py)
+  - [Smallest Subarray with sum greater than a given value](./06_Array/24_smallest_subarray_sum.py)   
 
-  Medium
-  - Union of two arrays  
-  - Intersection of two arrays  
-  - Find the "Kth" max and min element of an array  
-  - Merge 2 sorted arrays without using extra space  
-  - Merge Intervals  
-  - Next Permutation  
-  - Find if there is any subarray with sum equal to 0  
-  - Rearrange the array in alternating positive and negative items with O(1) extra space  
-  - Find the triplet that sum to a given value  
-  - Find all pairs on integer array whose sum is equal to given number  
-  - Find factorial of a large number  
-  - Find longest consecutive subsequence  
-  - Find all elements that appear more than " n/k " times  
-  - Smallest Subarray with sum greater than a given value  
-  - Three way partitioning of an array around a given value  
-  - Minimum swaps required bring elements less equal K together  
-  - Minimum no. of operations required to make an array palindrome  
-
-  Hard
-  - Kadane's Algorithm [V.V.V.V.V IMP]  
-  - Find Largest sum contiguous Subarray [V. IMP]  
-  - Minimise the maximum difference between heights [V.IMP]  
-  - Minimum no. of Jumps to reach end of an array  
-  - Count Inversion  
-  - Best time to buy and Sell stock  
-  - Maximum profit by buying and selling a share at most twice  
-  - Find maximum product subarray  
-  - Trapping Rain water problem  
-  - Chocolate Distribution problem  
-  - Find common elements in 3 sorted arrays  
-  - Median of 2 sorted arrays of equal size
-  - Median of 2 sorted arrays of different size
-
+  Hard Level
+  - [Kadane's Algorithm [V.V.V.V.V IMP]](./06_Array/25_Kadnes_algorithm.py)
+  - [Minimise the maximum difference between heights [V.IMP]](./06_Array/26_minimize_max_diff_heights.py)
+  - [Minimum no. of Jumps to reach end of an array](./06_Array/27_min_jumps.py)  
+  - [Find maximum product subarray](./06_Array/28_max_product_subarray.py)
+  - [Chocolate Distribution problem](./06_Array/29_chocolate_distribution.py)
+  - [Find common elements in 3 sorted arrays](./06_Array/30_common_elements_three.py)
 </details>
 
 
 <details>
 <summary><strong>07_Matrix (2D Array) </strong></summary>
 
-#### 🟢 Easy Level
-- [Print a Matrix in Row-Major Order](./Easy/01_row_major.py)  
-- [Print a Matrix in Column-Major Order](./Easy/02_col_major.py)  
-- [Transpose of a Matrix](./Easy/03_transpose.py)  
-- [Search Element in a Matrix](./Easy/04_search_element.py)  
-- [Check if Matrix is Symmetric](./Easy/05_check_symmetric.py)  
-- [Sum of All Elements in a Matrix](./Easy/06_sum_elements.py)  
+Easy Level
+- [Print a Matrix in Row-Major Order](./07_Matrix/01_print_row_major.py)  
+- [Print a Matrix in Column-Major Order](./07_Matrix/02_print_column_major.py)  
+- [Transpose of a Matrix](./07_Matrix/03_transpose.py)  
+- [Search Element in a Matrix](./07_Matrix/04_search_element.py)  
+- [Check if Matrix is Symmetric](./07_Matrix/05_check_symmetric.py)  
+- [Sum of All Elements in a Matrix](./07_Matrix/06_sum_elements.py)  
 
----
-
-#### 🟡 Medium Level
+Medium Level
 - [Rotate Matrix by 90 Degrees (Clockwise/Anti-Clockwise)](./Medium/07_rotate_90.py)  
 - [Spiral Traversal of Matrix](./Medium/08_spiral_traversal.py)  
 - [Diagonal Traversal of Matrix](./Medium/09_diagonal_traversal.py)  
@@ -149,9 +131,7 @@ This repository is a structured collection of Python programs to help understand
 - [Matrix Multiplication](./Medium/12_matrix_multiplication.py)  
 - [Check Identity Matrix](./Medium/13_check_identity.py)  
 
----
-
-#### 🔴 Hard Level
+Hard Level
 - [Search in Row & Column-wise Sorted Matrix](./Hard/14_search_sorted_matrix.py)  
 - [Set Matrix Zeroes](./Hard/15_set_matrix_zeroes.py)  
 - [Maximum Size Sub-matrix with All 1s](./Hard/16_max_submatrix_1s.py)  
