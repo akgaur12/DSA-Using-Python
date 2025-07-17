@@ -112,7 +112,7 @@ This repository is a structured collection of Python programs to help understand
 
 
 <details>
-<summary><strong>07_Matrix (2D Array) </strong></summary>
+<summary><strong>07_Matrix</strong></summary>
 
 Easy Level
 - [Print a Matrix in Row-Major Order](./07_Matrix/01_print_row_major.py)  
@@ -123,25 +123,65 @@ Easy Level
 - [Sum of All Elements in a Matrix](./07_Matrix/06_sum_elements.py)  
 
 Medium Level
-- [Rotate Matrix by 90 Degrees (Clockwise/Anti-Clockwise)](./Medium/07_rotate_90.py)  
-- [Spiral Traversal of Matrix](./Medium/08_spiral_traversal.py)  
-- [Diagonal Traversal of Matrix](./Medium/09_diagonal_traversal.py)  
-- [Boundary Traversal of Matrix](./Medium/10_boundary_traversal.py)  
-- [Find Saddle Point in Matrix](./Medium/11_saddle_point.py)  
-- [Matrix Multiplication](./Medium/12_matrix_multiplication.py)  
-- [Check Identity Matrix](./Medium/13_check_identity.py)  
+- [Rotate Matrix by 90 Degrees (Clockwise/Anti-Clockwise)](./07_Matrix/07_rotate_90.py)
+- [Spiral Traversal of Matrix](./07_Matrix/08_spiral_traversal.py)
+- [Diagonal Traversal of Matrix](./07_Matrix/09_diagonal_traversal.py)
+- [Boundary Traversal of Matrix](./07_Matrix/10_boundary_traversal.py)
+- [Find Saddle Point in Matrix](./07_Matrix/11_saddle_point.py)
+- [Matrix Multiplication](./07_Matrix/12_matrix_multiplication.py)  
+- [Check Identity Matrix](./07_Matrix/13_check_identity.py)
 
 Hard Level
-- [Search in Row & Column-wise Sorted Matrix](./Hard/14_search_sorted_matrix.py)  
-- [Set Matrix Zeroes](./Hard/15_set_matrix_zeroes.py)  
-- [Maximum Size Sub-matrix with All 1s](./Hard/16_max_submatrix_1s.py)  
-- [Find Median in Row-wise Sorted Matrix](./Hard/17_find_median.py)  
-- [Find Row with Maximum 1s](./Hard/18_max_1s_row.py)  
-- [Rotate Matrix In-Place](./Hard/19_rotate_inplace.py)  
-- [Word Search in Matrix (DFS)](./Hard/20_word_search_dfs.py)  
-
+- [Search in Row & Column-wise Sorted Matrix](./07_Matrix/14_search_sorted_matrix.py)  
+- [Set Matrix Zeroes](./07_Matrix/15_set_matrix_zeroes.py)  
+- [Find Row with Maximum 1s](./07_Matrix/16_max_1s_row.py)  
+- [Rotate Matrix In-Place](./07_Matrix/17_rotate_inplace.py)  
 </details>
 
+
+<details>
+<summary><strong>08_String</strong></summary>
+
+Easy
+
+- [Check whether a String is Palindrome](./Easy/01_palindrome.py)
+- [Remove duplicate characters from string](./Easy/02_remove_duplicates.py)
+- [Check whether one string is a rotation of another](./Easy/03_rotation_check.py)
+- [Anagram check for two strings](./Easy/04_anagram_check.py)
+- [First non-repeating character](./Easy/05_first_non_repeating.py)
+- [Longest Common Prefix using Sorting](./Easy/06_longest_common_prefix.py)
+- [Roman to Integer Conversion](./Easy/07_roman_to_integer.py)
+- [Count vowels, consonants, digits, and special characters](./Easy/08_count_char_types.py)
+- [Check if two strings are isomorphic](./Easy/09_isomorphic.py)
+
+Medium
+
+- [Decimal to Roman Numeral (1 to 3999)](./Medium/01_decimal_to_roman.py)
+- [Print all Subsequences of a string](./Medium/02_all_subsequences.py)
+- [Print all Permutations of a string](./Medium/03_permutations.py)
+- [Word Wrap Problem](./Medium/04_word_wrap.py)
+- [Balanced Parenthesis Problem](./Medium/05_balanced_parenthesis.py)
+- [Word Break Problem](./Medium/06_word_break.py)
+- [Group Anagrams](./Medium/07_group_anagrams.py)
+- [Longest Palindromic Substring](./Medium/08_longest_palindromic_substring.py)
+- [Longest Substring Without Repeating Characters](./Medium/09_longest_unique_substring.py)
+- [Check if a string is a valid shuffle](./Medium/10_valid_shuffle.py)
+- [Rabin-Karp Pattern Matching](./Medium/11_rabin_karp.py)
+- [Longest Repeating Subsequence](./Medium/12_longest_repeating_subseq.py)
+
+Hard
+
+- [Next greater number with same digits](./Hard/01_next_greater_number.py)
+- [Minimum insertions to make palindrome](./Hard/02_min_insertions_palindrome.py)
+- [Print all Palindromic Partitions](./Hard/03_palindromic_partitions.py)
+- [Minimum swaps to make string palindrome](./Hard/04_min_swaps_palindrome.py)
+- [Regular Expression Matching (* and .)](./Hard/05_regex_matching.py)
+- [Decode Ways (A-Z mappings)](./Hard/06_decode_ways.py)
+- [Shortest Common Supersequence](./Hard/07_shortest_common_supersequence.py)
+- [Edit Distance (Levenshtein Distance)](./Hard/08_edit_distance.py)
+- [Wildcard Pattern Matching (*, ?)](./Hard/09_wildcard_matching.py)
+- [Longest Valid Parentheses Substring](./Hard/10_longest_valid_parentheses.py)
+</details>
 
 
 ## ✅ Prerequisites
