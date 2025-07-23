@@ -144,21 +144,21 @@ Hard Level
 
 Easy
 
-- [Check whether a String is Palindrome](./Easy/01_palindrome.py)
-- [Remove duplicate characters from string](./Easy/02_remove_duplicates.py)
-- [Check whether one string is a rotation of another](./Easy/03_rotation_check.py)
-- [Anagram check for two strings](./Easy/04_anagram_check.py)
-- [First non-repeating character](./Easy/05_first_non_repeating.py)
-- [Longest Common Prefix using Sorting](./Easy/06_longest_common_prefix.py)
-- [Roman to Integer Conversion](./Easy/07_roman_to_integer.py)
-- [Count vowels, consonants, digits, and special characters](./Easy/08_count_char_types.py)
-- [Check if two strings are isomorphic](./Easy/09_isomorphic.py)
+- [Check whether a String is Palindrome](./09_String/01_palindrome.py)
+- [Remove duplicate characters from string](./09_String/02_remove_duplicates.py)
+- [First non-repeating character](./09_String/03_first_non_repeating.py)
+- [Count vowels, consonants, digits, and special characters](./09_String/04_count_char_types.py)
+- [Anagram check for two strings](./09_String/05_anagram_check.py)
+- [Check whether one string is a rotation of another](./09_String/06_rotation_check.py)
+- [Longest Common Prefix using Sorting](./09_String/07_longest_common_prefix.py)
+- [Check if two strings are isomorphic](./09_String/08_isomorphic.py)
 
 Medium
 
-- [Decimal to Roman Numeral (1 to 3999)](./Medium/01_decimal_to_roman.py)
-- [Print all Subsequences of a string](./Medium/02_all_subsequences.py)
-- [Print all Permutations of a string](./Medium/03_permutations.py)
+- [Roman to Integer Conversion](./09_String/09_roman_to_integer.py)
+- [Decimal to Roman Numeral (1 to 3999)](./09_String/10_decimal_to_roman.py)
+- [Print all Subsequences of a string](./09_String/11_all_subsequences.py)
+- [Print all Permutations of a string](./09_String/12_permutations.py)
 - [Word Wrap Problem](./Medium/04_word_wrap.py)
 - [Balanced Parenthesis Problem](./Medium/05_balanced_parenthesis.py)
 - [Word Break Problem](./Medium/06_word_break.py)
