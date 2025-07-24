@@ -30,117 +30,138 @@ This repository is a structured collection of Python programs to help understand
 </details>
 
 <details>
-<summary><strong>03_Recursion</strong></summary>
+<summary><strong>03_Pattern_Problems</strong></summary>
 
-  - [RecursionBasics.md](./03_Recursion/01_RecursionBasics.md)
-  - [PowerFunction.py](./03_Recursion/02_PowerFunction.py)
-  - [Factorial.py](./03_Recursion/03_Factorial.py)
-  - [SumOfCubes.py](./03_Recursion/04._SumOfCubes.py)
-  - [FibonacciSeries.py](./03_Recursion/05_FibonacciSeries.py)
-  - [ReverseArrayUsingRecursion.py](./03_Recursion/06_ReverseArrayUsingRecursion.py)
-  - [StringReversal.py](./03_Recursion/07_StringReversal.py)
+  - [Rectangle Pattern](./01_Pattern_Problems/01_rectangle_pattern.py)
+  - [Left Half Pyramid](./01_Pattern_Problems/02_left_half_pyramid.py)
+  - [Inverted Left Half Pyramid](./01_Pattern_Problems/03_inverted_left_half_pyramid.py)
+  - [Right Half Pyramid](./01_Pattern_Problems/04_right_half_pyramid.py)
+  - [Inverted Right Half Pyramid](./01_Pattern_Problems/05_inverted_right_half_pyramid.py)
+  - [Number Half Pyramid - I](./01_Pattern_Problems/06_number_half_pyramid1.py)
+  - [Number Half Pyramid - II](./01_Pattern_Problems/07_number_half_pyramid2.py)
+  - [Palindromic Number Pyramid](./01_Pattern_Problems/08_palindromic_number_pyramid.py)
+  - [Rhombus Pattern](./01_Pattern_Problems/09_rombus_pattern.py)
+  - [Floyd's Triangle](./01_Pattern_Problems/10_floyds_triangle.py)
+  - [Binary Triangle](./01_Pattern_Problems/11_binary_triangle.py)
+  - [Butterfly Pattern](./01_Pattern_Problems/12_butteryfly.py)
+  - [Diamond Pattern](./01_Pattern_Problems/13_diamond_pattern.py)
+  - [Pascal's Triangle](./01_Pattern_Problems/14_pascals_triangle.py)
+
+</details>
+
+
+<details>
+<summary><strong>04_Recursion</strong></summary>
+
+  - [RecursionBasics.md](./04_Recursion/01_RecursionBasics.md)
+  - [PowerFunction.py](./04_Recursion/02_PowerFunction.py)
+  - [Factorial.py](./04_Recursion/03_Factorial.py)
+  - [SumOfCubes.py](./04_Recursion/04._SumOfCubes.py)
+  - [FibonacciSeries.py](./04_Recursion/05_FibonacciSeries.py)
+  - [ReverseArrayUsingRecursion.py](./04_Recursion/06_ReverseArrayUsingRecursion.py)
+  - [StringReversal.py](./04_Recursion/07_StringReversal.py)
 
 </details>
 
 <details>
-<summary><strong>04_Searching</strong></summary>
+<summary><strong>05_Searching</strong></summary>
 
 | Algorithm                | Time (Best) | Time (Avg)   | Time (Worst) | Space | Requirement                            |
 | ------------------------ | ----------- | ------------ | ------------ | ----- | -------------------------------------- |
-| [**Linear Search**](./04_Searching/01_LinearSearch.py)        | O(1)        | O(n)         | O(n)         | O(1)  | None                                   |
-| [**Binary Search** ](./04_Searching/02_BinarySearch)       | O(1)        | O(log n)     | O(log n)     | O(1)  | Sorted array                           |
-| [**Interpolation Search**](./04_Searching/03_InterpolationSearch.py) | O(1)        | O(log log n) | O(n)         | O(1)  | Sorted and uniformly distributed array |
+| [**Linear Search**](./05_Searching/01_LinearSearch.py)        | O(1)        | O(n)         | O(n)         | O(1)  | None                                   |
+| [**Binary Search** ](./05_Searching/02_BinarySearch)       | O(1)        | O(log n)     | O(log n)     | O(1)  | Sorted array                           |
+| [**Interpolation Search**](./05_Searching/03_InterpolationSearch.py) | O(1)        | O(log log n) | O(n)         | O(1)  | Sorted and uniformly distributed array |
 
 </details>
 
 <details>
-<summary><strong>05_Sorting</strong></summary>
+<summary><strong>06_Sorting</strong></summary>
 
 | Algorithm          | Time (Best) | Time (Avg) | Time (Worst) | Space    | Stable? |
 | ------------------ | ----------- | ---------- | ------------ | -------- | ------- |
-| [**Bubble Sort**](./05_Sorting/01_BubbleSort.py)    | O(n)        | O(n²)      | O(n²)        | O(1)     | Yes     |
-| [**Selection Sort**](./05_Sorting/02_SelectionSort.py) | O(n²)       | O(n²)      | O(n²)        | O(1)     | No      |
-| [**Insertion Sort**](./05_Sorting/03_InsertionSort.py) | O(n)        | O(n²)      | O(n²)        | O(1)     | Yes     |
-| [**Merge Sort**](./05_Sorting/04_MergeSort.py)     | O(n log n)  | O(n log n) | O(n log n)   | O(n)     | Yes     |
-| [**Quick Sort**](./05_Sorting/05_QuickSort.py)     | O(n log n)  | O(n log n) | O(n²)        | O(log n) | No      |
-| [**Heap Sort**](./05_Sorting/08_HeapSort.py)      | O(n log n)  | O(n log n) | O(n log n)   | O(1)     | No      |
-| [**Counting Sort**](./05_Sorting/06_CountSort.py)  | O(n + k)    | O(n + k)   | O(n + k)     | O(k)     | Yes     |
-| [**Radix Sort**](./05_Sorting/07_RadixSort.py)    | O(nk)       | O(nk)      | O(nk)        | O(n + k) | Yes     |
-| [**Bucket Sort**](./05_Sorting/09_BucketSort.py)   | O(n + k)    | O(n + k)   | O(n²)        | O(n + k) | Yes     |
+| [**Bubble Sort**](./06_Sorting/01_BubbleSort.py)    | O(n)        | O(n²)      | O(n²)        | O(1)     | Yes     |
+| [**Selection Sort**](./06_Sorting/02_SelectionSort.py) | O(n²)       | O(n²)      | O(n²)        | O(1)     | No      |
+| [**Insertion Sort**](./06_Sorting/03_InsertionSort.py) | O(n)        | O(n²)      | O(n²)        | O(1)     | Yes     |
+| [**Merge Sort**](./06_Sorting/04_MergeSort.py)     | O(n log n)  | O(n log n) | O(n log n)   | O(n)     | Yes     |
+| [**Quick Sort**](./06_Sorting/05_QuickSort.py)     | O(n log n)  | O(n log n) | O(n²)        | O(log n) | No      |
+| [**Heap Sort**](./06_Sorting/08_HeapSort.py)      | O(n log n)  | O(n log n) | O(n log n)   | O(1)     | No      |
+| [**Counting Sort**](./06_Sorting/06_CountSort.py)  | O(n + k)    | O(n + k)   | O(n + k)     | O(k)     | Yes     |
+| [**Radix Sort**](./06_Sorting/07_RadixSort.py)    | O(nk)       | O(nk)      | O(nk)        | O(n + k) | Yes     |
+| [**Bucket Sort**](./06_Sorting/09_BucketSort.py)   | O(n + k)    | O(n + k)   | O(n²)        | O(n + k) | Yes     |
 
 </details>
 
 <details>
-<summary><strong>06_Array</strong></summary>
+<summary><strong>07_Array</strong></summary>
 
   Easy Level
-  - [Reverse an array](./06_Array/01_reverse_array.py)  
-  - [Check if the array is sorted](./06_Array/02_check_sorted.py)
-  - [Find the maximum and minimum element in an array](./06_Array/03_max_min_of_array.py)  
-  - [Second Largest Element in an Array without sorting](./06_Array/04_second_largest.py) 
-  - [Remove Duplicates from Sorted Array](./06_Array/05_remove_duplicate.py) 
-  - [Right rotate an array by K places](./06_Array/06_right_rotate_k.py)  
-  - [Move Zeros to end](./06_Array/07_moves_zeros_to_end.py)
-  - [Move all negative number to end](./06_Array/08_move_negative_to_end.py) 
-  - [Sort an array of 0, 1, & 2](./06_Array/09_sort_array_of_012.py) 
-  - [Find missing number in an array](./06_Array/10_missing_number.py)
-  - [Find duplicate in an array of N+1 Integers](./06_Array/11_find_duplicate.py)  
-  - [Maximum Consecutive Ones](./06_Array/12_max_consecutive_ones.py)
-  - [Find whether an array is a subset of another array](./06_Array/13_check_subset.py)  
-  - [Merge 2 sorted Arrays](./06_Array/14_merge_sorted.py)  
+  - [Reverse an array](./07_Array/01_reverse_array.py)  
+  - [Check if the array is sorted](./07_Array/02_check_sorted.py)
+  - [Find the maximum and minimum element in an array](./07_Array/03_max_min_of_array.py)  
+  - [Second Largest Element in an Array without sorting](./07_Array/04_second_largest.py) 
+  - [Remove Duplicates from Sorted Array](./07_Array/05_remove_duplicate.py) 
+  - [Right rotate an array by K places](./07_Array/06_right_rotate_k.py)  
+  - [Move Zeros to end](./07_Array/07_moves_zeros_to_end.py)
+  - [Move all negative number to end](./07_Array/08_move_negative_to_end.py) 
+  - [Sort an array of 0, 1, & 2](./07_Array/09_sort_array_of_012.py) 
+  - [Find missing number in an array](./07_Array/10_missing_number.py)
+  - [Find duplicate in an array of N+1 Integers](./07_Array/11_find_duplicate.py)  
+  - [Maximum Consecutive Ones](./07_Array/12_max_consecutive_ones.py)
+  - [Find whether an array is a subset of another array](./07_Array/13_check_subset.py)  
+  - [Merge 2 sorted Arrays](./07_Array/14_merge_sorted.py)  
 
   Medium Level
-  - [Union of two arrays](./06_Array/15_union_of_arrays.py)
-  - [Intersection of two arrays](./06_Array/16_intersection_of_arrays.py)
-  - [Find the "Kth" max and min element of an array](./06_Array//17_kth_max_min.py)
-  - [Merge 2 sorted arrays without using extra space](./06_Array/18_merge_two_array_inplace.py)
-  - [Find if there is any subarray with sum equal to 0](./06_Array/19_subarray_with_zero_sum.py)
-  - [Find the triplet that sum to a given value](./06_Array/20_3sum.py)
-  - [Find factorial of a large number](./06_Array/21_factorial_of_large_num.py) 
-  - [Find longest consecutive subsequence](./06_Array/22_longest_consecutive.py)  
-  - [Find all elements that appear more than " n/k " times](./06_Array/23_majority_element_II.py)
-  - [Smallest Subarray with sum greater than a given value](./06_Array/24_smallest_subarray_sum.py)   
+  - [Union of two arrays](./07_Array/15_union_of_arrays.py)
+  - [Intersection of two arrays](./07_Array/16_intersection_of_arrays.py)
+  - [Find the "Kth" max and min element of an array](./07_Array//17_kth_max_min.py)
+  - [Merge 2 sorted arrays without using extra space](./07_Array/18_merge_two_array_inplace.py)
+  - [Find if there is any subarray with sum equal to 0](./07_Array/19_subarray_with_zero_sum.py)
+  - [Find the triplet that sum to a given value](./07_Array/20_3sum.py)
+  - [Find factorial of a large number](./07_Array/21_factorial_of_large_num.py) 
+  - [Find longest consecutive subsequence](./07_Array/22_longest_consecutive.py)  
+  - [Find all elements that appear more than " n/k " times](./07_Array/23_majority_element_II.py)
+  - [Smallest Subarray with sum greater than a given value](./07_Array/24_smallest_subarray_sum.py)   
 
   Hard Level
-  - [Kadane's Algorithm [V.V.V.V.V IMP]](./06_Array/25_Kadnes_algorithm.py)
-  - [Minimise the maximum difference between heights [V.IMP]](./06_Array/26_minimize_max_diff_heights.py)
-  - [Minimum no. of Jumps to reach end of an array](./06_Array/27_min_jumps.py)  
-  - [Find maximum product subarray](./06_Array/28_max_product_subarray.py)
-  - [Chocolate Distribution problem](./06_Array/29_chocolate_distribution.py)
-  - [Find common elements in 3 sorted arrays](./06_Array/30_common_elements_three.py)
+  - [Kadane's Algorithm [V.V.V.V.V IMP]](./07_Array/25_Kadnes_algorithm.py)
+  - [Minimise the maximum difference between heights [V.IMP]](./07_Array/26_minimize_max_diff_heights.py)
+  - [Minimum no. of Jumps to reach end of an array](./07_Array/27_min_jumps.py)  
+  - [Find maximum product subarray](./07_Array/28_max_product_subarray.py)
+  - [Chocolate Distribution problem](./07_Array/29_chocolate_distribution.py)
+  - [Find common elements in 3 sorted arrays](./07_Array/30_common_elements_three.py)
 </details>
 
 
 <details>
-<summary><strong>07_Matrix</strong></summary>
+<summary><strong>08_Matrix</strong></summary>
 
 Easy Level
-- [Print a Matrix in Row-Major Order](./07_Matrix/01_print_row_major.py)  
-- [Print a Matrix in Column-Major Order](./07_Matrix/02_print_column_major.py)  
-- [Transpose of a Matrix](./07_Matrix/03_transpose.py)  
-- [Search Element in a Matrix](./07_Matrix/04_search_element.py)  
-- [Check if Matrix is Symmetric](./07_Matrix/05_check_symmetric.py)  
-- [Sum of All Elements in a Matrix](./07_Matrix/06_sum_elements.py)  
+- [Print a Matrix in Row-Major Order](./08_Matrix/01_print_row_major.py)  
+- [Print a Matrix in Column-Major Order](./08_Matrix/02_print_column_major.py)  
+- [Transpose of a Matrix](./08_Matrix/03_transpose.py)  
+- [Search Element in a Matrix](./08_Matrix/04_search_element.py)  
+- [Check if Matrix is Symmetric](./08_Matrix/05_check_symmetric.py)  
+- [Sum of All Elements in a Matrix](./08_Matrix/06_sum_elements.py)  
 
 Medium Level
-- [Rotate Matrix by 90 Degrees (Clockwise/Anti-Clockwise)](./07_Matrix/07_rotate_90.py)
-- [Spiral Traversal of Matrix](./07_Matrix/08_spiral_traversal.py)
-- [Diagonal Traversal of Matrix](./07_Matrix/09_diagonal_traversal.py)
-- [Boundary Traversal of Matrix](./07_Matrix/10_boundary_traversal.py)
-- [Find Saddle Point in Matrix](./07_Matrix/11_saddle_point.py)
-- [Matrix Multiplication](./07_Matrix/12_matrix_multiplication.py)  
-- [Check Identity Matrix](./07_Matrix/13_check_identity.py)
+- [Rotate Matrix by 90 Degrees (Clockwise/Anti-Clockwise)](./08_Matrix/07_rotate_90.py)
+- [Spiral Traversal of Matrix](./08_Matrix/08_spiral_traversal.py)
+- [Diagonal Traversal of Matrix](./08_Matrix/09_diagonal_traversal.py)
+- [Boundary Traversal of Matrix](./08_Matrix/10_boundary_traversal.py)
+- [Find Saddle Point in Matrix](./08_Matrix/11_saddle_point.py)
+- [Matrix Multiplication](./08_Matrix/12_matrix_multiplication.py)  
+- [Check Identity Matrix](./08_Matrix/13_check_identity.py)
 
 Hard Level
-- [Search in Row & Column-wise Sorted Matrix](./07_Matrix/14_search_sorted_matrix.py)  
-- [Set Matrix Zeroes](./07_Matrix/15_set_matrix_zeroes.py)  
-- [Find Row with Maximum 1s](./07_Matrix/16_max_1s_row.py)  
-- [Rotate Matrix In-Place](./07_Matrix/17_rotate_inplace.py)  
+- [Search in Row & Column-wise Sorted Matrix](./08_Matrix/14_search_sorted_matrix.py)  
+- [Set Matrix Zeroes](./08_Matrix/15_set_matrix_zeroes.py)  
+- [Find Row with Maximum 1s](./08_Matrix/16_max_1s_row.py)  
+- [Rotate Matrix In-Place](./08_Matrix/17_rotate_inplace.py)  
 </details>
 
 
 <details>
-<summary><strong>08_String</strong></summary>
+<summary><strong>09_String</strong></summary>
 
 Easy
 
