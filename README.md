@@ -30,22 +30,22 @@ This repository is a structured collection of Python programs to help understand
 </details>
 
 <details>
-<summary><strong>03_Pattern_Problems</strong></summary>
+<summary><strong>03_Patterns</strong></summary>
 
-  - [Rectangle Pattern](./01_Pattern_Problems/01_rectangle_pattern.py)
-  - [Left Half Pyramid](./01_Pattern_Problems/02_left_half_pyramid.py)
-  - [Inverted Left Half Pyramid](./01_Pattern_Problems/03_inverted_left_half_pyramid.py)
-  - [Right Half Pyramid](./01_Pattern_Problems/04_right_half_pyramid.py)
-  - [Inverted Right Half Pyramid](./01_Pattern_Problems/05_inverted_right_half_pyramid.py)
-  - [Number Half Pyramid - I](./01_Pattern_Problems/06_number_half_pyramid1.py)
-  - [Number Half Pyramid - II](./01_Pattern_Problems/07_number_half_pyramid2.py)
-  - [Palindromic Number Pyramid](./01_Pattern_Problems/08_palindromic_number_pyramid.py)
-  - [Rhombus Pattern](./01_Pattern_Problems/09_rombus_pattern.py)
-  - [Floyd's Triangle](./01_Pattern_Problems/10_floyds_triangle.py)
-  - [Binary Triangle](./01_Pattern_Problems/11_binary_triangle.py)
-  - [Butterfly Pattern](./01_Pattern_Problems/12_butteryfly.py)
-  - [Diamond Pattern](./01_Pattern_Problems/13_diamond_pattern.py)
-  - [Pascal's Triangle](./01_Pattern_Problems/14_pascals_triangle.py)
+  - [Rectangle Pattern](./03_Patterns/01_rectangle_pattern.py)
+  - [Left Half Pyramid](./03_Patterns/02_left_half_pyramid.py)
+  - [Inverted Left Half Pyramid](./03_Patterns/03_inverted_left_half_pyramid.py)
+  - [Right Half Pyramid](./03_Patterns/04_right_half_pyramid.py)
+  - [Inverted Right Half Pyramid](./03_Patterns/05_inverted_right_half_pyramid.py)
+  - [Number Half Pyramid - I](./03_Patterns/06_number_half_pyramid1.py)
+  - [Number Half Pyramid - II](./03_Patterns/07_number_half_pyramid2.py)
+  - [Palindromic Number Pyramid](./03_Patterns/08_palindromic_number_pyramid.py)
+  - [Rhombus Pattern](./03_Patterns/09_rombus_pattern.py)
+  - [Floyd's Triangle](./03_Patterns/10_floyds_triangle.py)
+  - [Binary Triangle](./03_Patterns/11_binary_triangle.py)
+  - [Butterfly Pattern](./03_Patterns/12_butteryfly.py)
+  - [Diamond Pattern](./03_Patterns/13_diamond_pattern.py)
+  - [Pascal's Triangle](./03_Patterns/14_pascals_triangle.py)
 
 </details>
 
@@ -180,29 +180,28 @@ Medium
 - [Decimal to Roman Numeral (1 to 3999)](./09_String/10_decimal_to_roman.py)
 - [Print all Subsequences of a string](./09_String/11_all_subsequences.py)
 - [Print all Permutations of a string](./09_String/12_permutations.py)
-- [Word Wrap Problem](./Medium/04_word_wrap.py)
-- [Balanced Parenthesis Problem](./Medium/05_balanced_parenthesis.py)
-- [Word Break Problem](./Medium/06_word_break.py)
-- [Group Anagrams](./Medium/07_group_anagrams.py)
-- [Longest Palindromic Substring](./Medium/08_longest_palindromic_substring.py)
-- [Longest Substring Without Repeating Characters](./Medium/09_longest_unique_substring.py)
-- [Check if a string is a valid shuffle](./Medium/10_valid_shuffle.py)
-- [Rabin-Karp Pattern Matching](./Medium/11_rabin_karp.py)
-- [Longest Repeating Subsequence](./Medium/12_longest_repeating_subseq.py)
+- [Balanced Parenthesis Problem](./09_String/13_balanced_parenthesis.py)
+- [Group Anagrams](./09_String/14_group_anagrams.py)
+- [Longest Substring Without Repeating Characters](./09_String/15_longest_unique_substring.py)
+- [Check if a string is a valid shuffle](./09_String/16_valid_shuffle.py)
 
 Hard
 
-- [Next greater number with same digits](./Hard/01_next_greater_number.py)
-- [Minimum insertions to make palindrome](./Hard/02_min_insertions_palindrome.py)
-- [Print all Palindromic Partitions](./Hard/03_palindromic_partitions.py)
-- [Minimum swaps to make string palindrome](./Hard/04_min_swaps_palindrome.py)
-- [Regular Expression Matching (* and .)](./Hard/05_regex_matching.py)
-- [Decode Ways (A-Z mappings)](./Hard/06_decode_ways.py)
-- [Shortest Common Supersequence](./Hard/07_shortest_common_supersequence.py)
-- [Edit Distance (Levenshtein Distance)](./Hard/08_edit_distance.py)
-- [Wildcard Pattern Matching (*, ?)](./Hard/09_wildcard_matching.py)
-- [Longest Valid Parentheses Substring](./Hard/10_longest_valid_parentheses.py)
+- [Rabin-Karp Pattern Matching](./09_String/17_rabin_karp.py)
+- [Longest Repeating Subsequence](./09_String/18_longest_repeating_subseq.py)
+- [Next greater number with same digits](./09_String/01_next_greater_number.py)
+- [Minimum insertions to make palindrome](./09_String/02_min_insertions_palindrome.py)
+- [Print all Palindromic Partitions](./09_String/03_palindromic_partitions.py)
+- [Minimum swaps to make string palindrome](./09_String/04_min_swaps_palindrome.py)
+- [Regular Expression Matching (* and .)](./09_String/05_regex_matching.py)
+- [Decode Ways (A-Z mappings)](./09_String/06_decode_ways.py)
+- [Shortest Common Supersequence](./09_String/07_shortest_common_supersequence.py)
+- [Edit Distance (Levenshtein Distance)](./09_String/08_edit_distance.py)
+- [Wildcard Pattern Matching (*, ?)](./09_String/09_wildcard_matching.py)
+- [Longest Valid Parentheses Substring](./09_String/10_longest_valid_parentheses.py)
 </details>
+
+ 
 
 
 ## ✅ Prerequisites
