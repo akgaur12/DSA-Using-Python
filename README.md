@@ -189,16 +189,12 @@ Hard
 
 - [Rabin-Karp Pattern Matching](./09_String/17_rabin_karp.py)
 - [Longest Repeating Subsequence](./09_String/18_longest_repeating_subseq.py)
-- [Next greater number with same digits](./09_String/01_next_greater_number.py)
-- [Minimum insertions to make palindrome](./09_String/02_min_insertions_palindrome.py)
-- [Print all Palindromic Partitions](./09_String/03_palindromic_partitions.py)
-- [Minimum swaps to make string palindrome](./09_String/04_min_swaps_palindrome.py)
-- [Regular Expression Matching (* and .)](./09_String/05_regex_matching.py)
-- [Decode Ways (A-Z mappings)](./09_String/06_decode_ways.py)
-- [Shortest Common Supersequence](./09_String/07_shortest_common_supersequence.py)
-- [Edit Distance (Levenshtein Distance)](./09_String/08_edit_distance.py)
-- [Wildcard Pattern Matching (*, ?)](./09_String/09_wildcard_matching.py)
-- [Longest Valid Parentheses Substring](./09_String/10_longest_valid_parentheses.py)
+- [Next greater number with same digits](./09_String/19_next_greater_number.py)
+- [Minimum swaps to make string palindrome](./09_String/20_min_swaps_palindrome.py)
+- [Regular Expression Matching (* and .)](./09_String/21_regex_matching.py)
+- [Edit Distance (Levenshtein Distance)](./09_String/22_edit_distance.md)
+- [Longest Valid Parentheses Substring](./09_String/23_longest_valid_parentheses.py)
+- [Decode Ways (A-Z mappings)](./09_String/24_decode_ways.py)
 </details>
 
  
