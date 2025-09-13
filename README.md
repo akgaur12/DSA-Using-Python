@@ -197,6 +197,25 @@ Hard
 - [Decode Ways (A-Z mappings)](./09_String/24_decode_ways.py)
 </details>
 
+
+<details>
+<summary><strong>10_Bit_Manipulation</strong></summary>
+
+- [Introduction.md](./10_Bit_Manipulation/01_Introduction.md)  
+- [Check_Kth_Bit_Set.py](./10_Bit_Manipulation/02_check_kth_bit_set.py)  
+- [IsEven_Bitwise.py](./10_Bit_Manipulation/03_isEven_bitwise.py)  
+- [IsPowerOfTwo.py](./10_Bit_Manipulation/04_isPowerOfTwo.py)  
+- [Count_Set_Bits.py](./10_Bit_Manipulation/05_count_set_bits.py)  
+- [Set_Rightmost_Unset_Bit.py](./10_Bit_Manipulation/06_set_rightmost_unset_bit.py)  
+- [Swap_Numbers_Bitwise.py](./10_Bit_Manipulation/07_swap_numbers_bitwise.py)  
+- [Divide_Two_Integers.py](./10_Bit_Manipulation/08_divide_two_integers.py)  
+- [Min_Bit_Flips.py](./10_Bit_Manipulation/09_min_bit_flips.py)  
+- [Find_Single_Number.py](./10_Bit_Manipulation/10_find_single_number.py)  
+- [Power_Set.py](./10_Bit_Manipulation/11_power_set.py)  
+- [Is_Power_Of_Two.py](./10_Bit_Manipulation/12_is_power_of_two.py)  
+
+</details>
+
  
 
 
