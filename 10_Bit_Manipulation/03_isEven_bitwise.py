@@ -1,6 +1,6 @@
 """
 Problem: Check if a Number is Even or Odd using Bit Manipulation
---------
+GFG Link: https://www.geeksforgeeks.org/problems/odd-or-even3618/1
 
 Description:
 ------------

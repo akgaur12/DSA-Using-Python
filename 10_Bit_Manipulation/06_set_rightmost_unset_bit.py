@@ -1,5 +1,6 @@
 """
 Problem: Set the Rightmost Unset Bit
+GFG Link: https://www.geeksforgeeks.org/problems/set-the-rightmost-unset-bit4436/1
 
 Description:
 ------------

@@ -1,6 +1,7 @@
 """
 
 Problem: Minimum Bit Flips to Convert Number
+LeetCode Link: https://leetcode.com/problems/minimum-bit-flips-to-convert-number/description/
 
 Description:
 ------------

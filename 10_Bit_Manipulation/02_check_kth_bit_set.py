@@ -1,6 +1,6 @@
 """
 Problem: Check K-th Bit in a Number
---------
+GFG Link: https://www.geeksforgeeks.org/problems/check-whether-k-th-bit-is-set-or-not-1587115620/1
 
 Description:
 ------------

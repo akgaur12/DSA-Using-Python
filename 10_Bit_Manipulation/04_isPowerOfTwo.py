@@ -1,6 +1,6 @@
 """
 Problem: Check if a Number is a Power of Two
---------
+GFG Link: https://leetcode.com/problems/power-of-two/description/
 
 Description:
 ------------
