@@ -32,7 +32,7 @@ class SinglyLinkedList:
 
 ---
 
-## 3. Appending a Node (Add to End)
+## 3. Appending a Node (Insert at End)
 
 ### Code
 
