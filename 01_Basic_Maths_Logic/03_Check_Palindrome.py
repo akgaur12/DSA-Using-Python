@@ -13,6 +13,32 @@ Time Complexity:
 - The number is reversed by processing one digit at a time.
 - If the number has `d` digits, the loop runs `d` times.
 - So the time complexity is O(d), which is approximately O(log₁₀(n)) ≈ O(log n).
+
+Number of Digits (Key Idea)
+--------------------------
+If a number is n, the number of digits in it is:
+
+    d = ⌊log10(n)⌋ + 1
+
+Examples:
+    n = 12345 → d = 5
+    n = 999   → d = 3
+
+
+Intuition (Most Important Part)
+-------------------------------
+- log10(n) tells how many times you can divide n by 10
+- Each division removes one digit
+- So, log10(n) ≈ number of digits − 1
+
+👉 That’s why we add +1
+
+
+Final Takeaway
+--------------
+- Number of digits grows logarithmically
+- Therefore, algorithms processing digits (like reversing a number)
+  run in O(log n) time complexity
 """
 
 
