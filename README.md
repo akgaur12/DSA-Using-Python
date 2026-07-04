@@ -40,10 +40,10 @@ This repository is a structured collection of Python programs to help understand
   - [Number Half Pyramid - I](./03_Patterns/06_number_half_pyramid1.py)
   - [Number Half Pyramid - II](./03_Patterns/07_number_half_pyramid2.py)
   - [Palindromic Number Pyramid](./03_Patterns/08_palindromic_number_pyramid.py)
-  - [Rhombus Pattern](./03_Patterns/09_rombus_pattern.py)
+  - [Rhombus Pattern](./03_Patterns/09_rhombus_pattern.py)
   - [Floyd's Triangle](./03_Patterns/10_floyds_triangle.py)
   - [Binary Triangle](./03_Patterns/11_binary_triangle.py)
-  - [Butterfly Pattern](./03_Patterns/12_butteryfly.py)
+  - [Butterfly Pattern](./03_Patterns/12_butterfly.py)
   - [Diamond Pattern](./03_Patterns/13_diamond_pattern.py)
   - [Pascal's Triangle](./03_Patterns/14_pascals_triangle.py)
 
@@ -123,7 +123,7 @@ This repository is a structured collection of Python programs to help understand
   - [Smallest Subarray with sum greater than a given value](./07_Array/24_smallest_subarray_sum.py)   
 
   Hard Level
-  - [Kadane's Algorithm [V.V.V.V.V IMP]](./07_Array/25_Kadnes_algorithm.py)
+  - [Kadane's Algorithm [V.V.V.V.V IMP]](./07_Array/25_Kadanes_algorithm.py)
   - [Minimise the maximum difference between heights [V.IMP]](./07_Array/26_minimize_max_diff_heights.py)
   - [Minimum no. of Jumps to reach end of an array](./07_Array/27_min_jumps.py)  
   - [Find maximum product subarray](./07_Array/28_max_product_subarray.py)
