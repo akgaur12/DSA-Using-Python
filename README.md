@@ -68,9 +68,9 @@ This repository is a structured collection of Python programs to help understand
 
 | Algorithm                | Time (Best) | Time (Avg)   | Time (Worst) | Space | Requirement                            |
 | ------------------------ | ----------- | ------------ | ------------ | ----- | -------------------------------------- |
-| [**Linear Search**](./05_Searching/01_LinearSearch.py)        | O(1)        | O(n)         | O(n)         | O(1)  | None                                   |
-| [**Binary Search** ](./05_Searching/02_BinarySearch)       | O(1)        | O(log n)     | O(log n)     | O(1)  | Sorted array                           |
-| [**Interpolation Search**](./05_Searching/03_InterpolationSearch.py) | O(1)        | O(log log n) | O(n)         | O(1)  | Sorted and uniformly distributed array |
+| [**Linear Search**](./05_Searching/01_LinearSearch.md)        | O(1)        | O(n)         | O(n)         | O(1)  | None                                   |
+| [**Binary Search** ](./05_Searching/02_BinarySearch.md)       | O(1)        | O(log n)     | O(log n)     | O(1)  | Sorted array                           |
+| [**Interpolation Search**](./05_Searching/03_InterpolationSearch.md) | O(1)        | O(log log n) | O(n)         | O(1)  | Sorted and uniformly distributed array |
 
 </details>
 
@@ -79,14 +79,14 @@ This repository is a structured collection of Python programs to help understand
 
 | Algorithm          | Time (Best) | Time (Avg) | Time (Worst) | Space    | Stable? |
 | ------------------ | ----------- | ---------- | ------------ | -------- | ------- |
-| [**Bubble Sort**](./06_Sorting/01_BubbleSort.py)    | O(n)        | O(n²)      | O(n²)        | O(1)     | Yes     |
-| [**Selection Sort**](./06_Sorting/02_SelectionSort.py) | O(n²)       | O(n²)      | O(n²)        | O(1)     | No      |
-| [**Insertion Sort**](./06_Sorting/03_InsertionSort.py) | O(n)        | O(n²)      | O(n²)        | O(1)     | Yes     |
-| [**Merge Sort**](./06_Sorting/04_MergeSort.py)     | O(n log n)  | O(n log n) | O(n log n)   | O(n)     | Yes     |
-| [**Quick Sort**](./06_Sorting/05_QuickSort.py)     | O(n log n)  | O(n log n) | O(n²)        | O(log n) | No      |
+| [**Bubble Sort**](./06_Sorting/01_BubbleSort.md)    | O(n)        | O(n²)      | O(n²)        | O(1)     | Yes     |
+| [**Selection Sort**](./06_Sorting/02_SelectionSort.md) | O(n²)       | O(n²)      | O(n²)        | O(1)     | No      |
+| [**Insertion Sort**](./06_Sorting/03_InsertionSort.md) | O(n)        | O(n²)      | O(n²)        | O(1)     | Yes     |
+| [**Merge Sort**](./06_Sorting/04_MergeSort.md)     | O(n log n)  | O(n log n) | O(n log n)   | O(n)     | Yes     |
+| [**Quick Sort**](./06_Sorting/05_QuickSort.md)     | O(n log n)  | O(n log n) | O(n²)        | O(log n) | No      |
 | [**Heap Sort**](./06_Sorting/08_HeapSort.py)      | O(n log n)  | O(n log n) | O(n log n)   | O(1)     | No      |
-| [**Counting Sort**](./06_Sorting/06_CountSort.py)  | O(n + k)    | O(n + k)   | O(n + k)     | O(k)     | Yes     |
-| [**Radix Sort**](./06_Sorting/07_RadixSort.py)    | O(nk)       | O(nk)      | O(nk)        | O(n + k) | Yes     |
+| [**Counting Sort**](./06_Sorting/06_CountSort.md)  | O(n + k)    | O(n + k)   | O(n + k)     | O(k)     | Yes     |
+| [**Radix Sort**](./06_Sorting/07_RadixSort.md)    | O(nk)       | O(nk)      | O(nk)        | O(n + k) | Yes     |
 | [**Bucket Sort**](./06_Sorting/09_BucketSort.py)   | O(n + k)    | O(n + k)   | O(n²)        | O(n + k) | Yes     |
 
 </details>
@@ -216,6 +216,89 @@ Hard
 
 </details>
 
+
+<details>
+<summary><strong>11_Linked_List</strong></summary>
+
+- [Singly Linked List - Introduction](./11_Linked_List/01_Singly_linked_list_intro.md)
+- [Singly Linked List - Implementation](./11_Linked_List/02_Singly_Linked_List.py)
+- [Singly & Doubly Linked List - Practice Problems](./11_Linked_List/03_Singly_linked_list_practice_problem.py)
+- [Doubly Linked List - Introduction](./11_Linked_List/04_Doubly_LinkedList_intro.md)
+
+</details>
+
+
+<details>
+<summary><strong>12_Stack</strong></summary>
+
+- [Stack - Introduction](./12_Stack/01_Stack_intro.md)
+- [Stack - Implementation](./12_Stack/02_Stack.py)
+- [Stack - Practice Problems](./12_Stack/03_Stack_practice_problems.md)
+
+</details>
+
+
+<details>
+<summary><strong>13_Queues</strong></summary>
+
+- [Queue - Introduction](./13_Queues/01_Queue_intro.md)
+- [Queue - Implementation](./13_Queues/02_Queue.py)
+- [Queue - Practice Problems](./13_Queues/03_Queue_practice_problems.md)
+
+</details>
+
+
+<details>
+<summary><strong>14_Tree</strong></summary>
+
+- [Tree - Introduction & Concepts](./14_Tree/01_Tree_intro.md)
+- [Binary Tree - Implementation](./14_Tree/02_Binary_Tree.py)
+- [Binary Search Tree - Implementation](./14_Tree/03_Binary_Search_Tree.py)
+- [Tree - Practice Problems](./14_Tree/04_Tree_practice_problems.md)
+
+</details>
+
+
+<details>
+<summary><strong>15_Graph</strong></summary>
+
+- [Graph - Introduction & Concepts](./15_Graph/01_Graph_intro.md)
+- [Graph - Implementation (BFS, DFS, Cycle Detection, Topological Sort, Bipartite Check)](./15_Graph/02_Graph.py)
+- [Weighted Graph Algorithms (Dijkstra, Bellman-Ford, Kruskal's & Prim's MST)](./15_Graph/03_Graph_Algorithms.py)
+- [Graph - Practice Problems](./15_Graph/04_Graph_practice_problems.md)
+
+</details>
+
+
+<details>
+<summary><strong>16_DP</strong></summary>
+
+- [Dynamic Programming - Introduction & Concepts](./16_DP/01_DP_intro.md)
+- [Dynamic Programming - Implementation (Knapsack, LCS, LIS, Edit Distance, MCM & more)](./16_DP/02_DP.py)
+- [Dynamic Programming - Practice Problems](./16_DP/03_DP_practice_problems.md)
+
+</details>
+
+
+<details>
+<summary><strong>17_Heap</strong></summary>
+
+- [Heap - Introduction & Concepts](./17_Heap/01_Heap_intro.md)
+- [Heap - Implementation (MinHeap, MaxHeap, Heap Sort)](./17_Heap/02_Heap.py)
+- [Heap - Practice Problems](./17_Heap/03_Heap_practice_problems.md)
+
+</details>
+
+
+<details>
+<summary><strong>18_Trie</strong></summary>
+
+- [Trie - Introduction & Concepts](./18_Trie/01_Trie_intro.md)
+- [Trie - Implementation](./18_Trie/02_Trie.py)
+- [Trie - Practice Problems](./18_Trie/03_Trie_practice_problems.md)
+
+</details>
+
  
 
 
@@ -227,7 +310,7 @@ Hard
 
 ## 🔔 Stay Tuned
 
-More topics like **Sorting**, **Searching**, **Linked Lists**, **Stacks**, **Queues**, and **Trees** will be added soon.
+More topics like **Greedy Algorithms** and **Segment Trees** will be added soon.
 
 **Stay tuned for more! 🚀**
 
